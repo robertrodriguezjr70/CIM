@@ -1,2 +1,5 @@
 #Get the BIOS Version
 Get-CimInstance -Class Win32_BIOS
+
+#Get Drive info
+Get-CimAssociatedInstance -class Win32_LogicalDisk
